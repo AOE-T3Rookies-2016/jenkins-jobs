@@ -24,8 +24,6 @@ Testing Jobs Locally
 Use the JobScriptsSpec to test your job scripts. Simply call: `./gradlew test`.
 This will find syntactic errors in your DSL script.
 
-*Currently have a bug, Carsten Lenz will keep us posted, please use the **Test a specific job** option.
-
 **Test a specific job:**
 
 Call `./gradlew run -PjobFile=Jobs/<MY_JOB_DSL_FILE>.groovy`.
